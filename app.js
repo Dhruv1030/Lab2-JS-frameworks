@@ -1,18 +1,18 @@
 // Import the functions from the utility file
 import {
-  greetUser,
-  convertUnit,
-  calculateFactorial,
-  advancedFunction,
+  welcomeUser,
+  convertDistance,
+  calculateSum,
+  randomStringGenerator,
 } from "./utils.js";
 
 // Calling the functions with sample data
-greetUser("Dhruv", "Patel");
+welcomeUser("Dhruv", "Wonderland");
 
-const celsius = 27;
-console.log(`Celsius to Fahrenheit: ${convertUnit(celsius)}°F`);
+const kilometers = 5;
+console.log(`Kilometers to Miles: ${convertDistance(kilometers)} miles`);
 
-const number = 7;
-console.log(`Factorial of ${number}: ${calculateFactorial(number)}`);
+const numbers = [10, 20, 30];
+console.log(`Sum of numbers: ${calculateSum(numbers)}`);
 
-advancedFunction();
+console.log(`Random String: ${randomStringGenerator()}`);
