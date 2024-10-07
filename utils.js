@@ -1,6 +1,6 @@
 // Function 1: Greet the user with a welcome message
 export function greetUser(firstName, lastName) {
-  console.log(`Welcome ${firstName} ${lastName} to G@I College`);
+  console.log(`Welcome ${firstName} ${lastName} to Georgian College`);
 }
 
 // Function 2: Convert Celsius to Fahrenheit

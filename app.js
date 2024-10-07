@@ -7,12 +7,12 @@ import {
 } from "./utils.js";
 
 // Calling the functions with sample data
-greetUser("John", "Doe");
+greetUser("Dhruv", "Patel");
 
-const celsius = 30;
+const celsius = 27;
 console.log(`Celsius to Fahrenheit: ${convertUnit(celsius)}°F`);
 
-const number = 5;
+const number = 7;
 console.log(`Factorial of ${number}: ${calculateFactorial(number)}`);
 
 advancedFunction();
